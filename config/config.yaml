@@ -1,0 +1,11 @@
+port: 9000
+task:
+  concurrent: 10
+  queues:
+    critical: 6
+    default: 3
+    low: 1
+redis:
+  addr: "127.0.0.1:6379"
+  db: 0
+  password: ""
